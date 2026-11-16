@@ -1,0 +1,50 @@
+;;; 
+Import: Release 23.26.3.0.0 - Production on Fri Nov 13 05:23:27 2026
+Version 23.26.3.0.0
+
+Copyright (c) 1982, 2026, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle AI Database 26ai Free Release 23.26.3.0.0 - Develop, Learn, and Run for Free
+Master table "SYSTEM"."SYS_IMPORT_FULL_01" successfully loaded/unloaded
+Starting "SYSTEM"."SYS_IMPORT_FULL_01":  "SYSTEM/********@localhost:1521/FREEPDB1" DIRECTORY=MYPE_BACKUP_DIR DUMPFILE=mype_backup_20261113.dmp LOGFILE=mype_import_20261113.log REMAP_SCHEMA=MYPE_INVENTARIO:MYPE_INVENTARIO_TEST 
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/TABLESPACE_QUOTA
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA/LOGREP
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+. . imported "MYPE_INVENTARIO_TEST"."COMERCIANTE"         47.6 KB     500 rows
+. . imported "MYPE_INVENTARIO_TEST"."DETALLECOMPRA"       20.7 KB     500 rows
+. . imported "MYPE_INVENTARIO_TEST"."VENTACANAL"          23.1 KB     500 rows
+. . imported "MYPE_INVENTARIO_TEST"."VARIANTESKU"           31 KB     500 rows
+. . imported "MYPE_INVENTARIO_TEST"."VENTA"               34.9 KB     500 rows
+. . imported "MYPE_INVENTARIO_TEST"."METODOPAGO"          23.2 KB     500 rows
+. . imported "MYPE_INVENTARIO_TEST"."DETALLEPEDIDO"       22.3 KB     500 rows
+. . imported "MYPE_INVENTARIO_TEST"."NEGOCIO"             65.2 KB     500 rows
+. . imported "MYPE_INVENTARIO_TEST"."PRODUCTO"            48.4 KB     500 rows
+. . imported "MYPE_INVENTARIO_TEST"."DETALLEVENTA"        22.2 KB     500 rows
+. . imported "MYPE_INVENTARIO_TEST"."PEDIDO"              32.4 KB     500 rows
+. . imported "MYPE_INVENTARIO_TEST"."PROMOCIONCOMERCIAL"   61.1 KB     500 rows
+. . imported "MYPE_INVENTARIO_TEST"."COMPRA"              38.1 KB     500 rows
+. . imported "MYPE_INVENTARIO_TEST"."EMPLEADO"            53.5 KB     500 rows
+. . imported "MYPE_INVENTARIO_TEST"."CATEGORIAPRODUCTO"   32.5 KB     500 rows
+. . imported "MYPE_INVENTARIO_TEST"."SUCURSAL"              42 KB     500 rows
+. . imported "MYPE_INVENTARIO_TEST"."PROVEEDOR"           66.4 KB     500 rows
+. . imported "MYPE_INVENTARIO_TEST"."CANALVENTA"          35.1 KB     500 rows
+. . imported "MYPE_INVENTARIO_TEST"."CLIENTE"             43.2 KB     500 rows
+. . imported "MYPE_INVENTARIO_TEST"."DIRECCIONCLIENTE"    48.6 KB     500 rows
+Processing object type SCHEMA_EXPORT/TABLE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/TABLE/IDENTITY_COLUMN
+Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processing object type SCHEMA_EXPORT/FUNCTION/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/PROCEDURE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Job "SYSTEM"."SYS_IMPORT_FULL_01" successfully completed at Fri Nov 13 05:23:50 2026 elapsed 0 00:00:17

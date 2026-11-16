@@ -1,0 +1,501 @@
+id_sucursal,id_sku,anio_mes,fecha_movimiento,id_movimiento,id_stock,id_tipo_movimiento,tipo_movimiento,afecta_stock,cantidad,observacion
+1,21,202609,2026-09-01 20:28:34,90,81,405,Consumo interno - Jeans,True,-30.00,
+1,21,202609,2026-09-06 14:47:42,117,81,205,Salida por venta - Jeans,True,-20.00,Venta por canal digital
+1,21,202609,2026-09-10 17:29:06,146,81,205,Salida por venta - Jeans,True,-23.00,Venta por canal digital
+1,21,202609,2026-09-11 15:07:57,152,81,205,Salida por venta - Jeans,True,-30.00,Venta por canal digital
+1,21,202609,2026-09-13 18:05:41,160,81,5,Entrada por compra - Jeans,True,32.00,Reposición semanal
+1,21,202610,2026-10-15 13:41:17,342,81,205,Salida por venta - Jeans,True,-11.00,Venta en tienda
+1,21,202610,2026-10-18 08:14:06,353,81,155,Transferencia recibida - Jeans,True,46.00,Recibido desde otro almacén
+1,21,202610,2026-10-24 12:55:08,393,81,355,Transferencia enviada - Jeans,True,-7.00,Transferencia entre locales
+1,21,202611,2026-11-06 20:08:41,462,81,205,Salida por venta - Jeans,True,-9.00,
+1,21,202611,2026-11-13 10:46:36,497,81,205,Salida por venta - Jeans,True,-11.00,Venta mayorista
+1,68,202608,2026-08-31 15:54:34,78,121,7,Entrada por compra - Faldas,True,38.00,
+1,68,202609,2026-09-03 14:53:59,101,121,207,Salida por venta - Faldas,True,-24.00,Venta por canal digital
+1,68,202609,2026-09-21 17:08:14,204,121,207,Salida por venta - Faldas,True,-21.00,Venta mayorista
+1,68,202609,2026-09-23 15:26:18,217,121,57,Devolución de cliente - Faldas,True,29.00,Devolución con boleta
+1,68,202609,2026-09-24 12:03:56,223,121,207,Salida por venta - Faldas,True,-10.00,Venta mayorista
+1,68,202609,2026-09-28 13:41:52,250,121,207,Salida por venta - Faldas,True,-11.00,
+1,68,202610,2026-10-01 19:06:42,269,121,307,Ajuste negativo - Faldas,True,-2.00,Faltante detectado en conteo
+1,68,202610,2026-10-13 13:58:53,323,121,7,Entrada por compra - Faldas,True,32.00,Reposición semanal
+1,68,202610,2026-10-31 20:24:52,429,121,207,Salida por venta - Faldas,True,-24.00,Venta mayorista
+1,68,202611,2026-11-04 09:40:00,449,121,207,Salida por venta - Faldas,True,-26.00,
+1,88,202609,2026-09-07 10:46:49,120,101,206,Salida por venta - Shorts,True,-1.00,Venta mayorista
+1,88,202609,2026-09-07 16:46:14,125,101,206,Salida por venta - Shorts,True,-21.00,
+1,88,202609,2026-09-08 15:53:33,129,101,256,Merma - Shorts,True,-9.00,
+1,88,202609,2026-09-22 15:57:38,211,101,356,Transferencia enviada - Shorts,True,-9.00,Transferencia entre locales
+1,88,202609,2026-09-29 10:44:02,252,101,6,Entrada por compra - Shorts,True,46.00,Reposición semanal
+1,88,202610,2026-10-10 11:24:53,312,101,156,Transferencia recibida - Shorts,True,39.00,Transferencia entre locales
+1,88,202610,2026-10-18 17:06:26,355,101,206,Salida por venta - Shorts,True,-3.00,
+1,88,202610,2026-10-23 18:33:23,389,101,206,Salida por venta - Shorts,True,-10.00,
+1,88,202610,2026-10-27 19:55:52,412,101,256,Merma - Shorts,True,-26.00,Producto dañado
+1,88,202611,2026-11-11 09:23:35,484,101,356,Transferencia enviada - Shorts,True,-27.00,
+1,104,202608,2026-08-24 17:43:36,50,61,4,Entrada por compra - Pantalones,True,78.00,
+1,104,202609,2026-09-06 14:24:47,116,61,204,Salida por venta - Pantalones,True,-20.00,
+1,104,202609,2026-09-20 19:22:27,197,61,4,Entrada por compra - Pantalones,True,48.00,Ingreso de nueva temporada
+1,104,202609,2026-09-21 08:04:49,201,61,204,Salida por venta - Pantalones,True,-10.00,
+1,104,202610,2026-10-04 09:14:00,277,61,204,Salida por venta - Pantalones,True,-24.00,
+1,104,202610,2026-10-15 12:18:56,341,61,354,Transferencia enviada - Pantalones,True,-24.00,
+1,104,202610,2026-10-16 11:11:02,346,61,104,Ajuste positivo - Pantalones,True,60.00,
+1,104,202610,2026-10-28 11:14:23,413,61,154,Transferencia recibida - Pantalones,True,32.00,Transferencia entre locales
+1,104,202611,2026-11-07 10:06:07,466,61,354,Transferencia enviada - Pantalones,True,-28.00,
+1,104,202611,2026-11-10 20:50:32,483,61,54,Devolución de cliente - Pantalones,True,67.00,Devolución con boleta
+1,150,202608,2026-08-17 13:42:23,12,381,20,Entrada por compra - Chalecos,True,54.00,Compra a proveedor
+1,150,202608,2026-08-21 19:43:26,31,381,220,Salida por venta - Chalecos,True,-26.00,Venta en tienda
+1,150,202608,2026-08-23 09:03:42,41,381,20,Entrada por compra - Chalecos,True,78.00,Compra a proveedor
+1,150,202608,2026-08-29 08:12:20,68,381,170,Transferencia recibida - Chalecos,True,68.00,Recibido desde otro almacén
+1,150,202608,2026-08-31 12:28:00,77,381,20,Entrada por compra - Chalecos,True,20.00,
+1,150,202609,2026-09-02 12:59:14,95,381,220,Salida por venta - Chalecos,True,-12.00,Venta mayorista
+1,150,202609,2026-09-18 11:02:53,173,381,220,Salida por venta - Chalecos,True,-30.00,Venta mayorista
+1,150,202610,2026-10-29 16:49:46,416,381,20,Entrada por compra - Chalecos,True,59.00,
+1,150,202611,2026-11-10 16:10:01,482,381,220,Salida por venta - Chalecos,True,-3.00,
+1,150,202611,2026-11-12 15:27:03,493,381,20,Entrada por compra - Chalecos,True,38.00,
+1,173,202608,2026-08-30 18:15:41,74,461,124,Ajuste positivo - Zapatos escolares,True,30.00,
+1,173,202609,2026-09-20 09:39:47,186,461,224,Salida por venta - Zapatos escolares,True,-6.00,
+1,173,202609,2026-09-20 13:25:09,190,461,224,Salida por venta - Zapatos escolares,True,-7.00,Venta mayorista
+1,173,202609,2026-09-22 15:06:59,210,461,74,Devolución de cliente - Zapatos escolares,True,25.00,
+1,173,202609,2026-09-23 12:21:18,215,461,24,Entrada por compra - Zapatos escolares,True,24.00,Compra por campaña
+1,173,202610,2026-10-14 08:17:59,329,461,224,Salida por venta - Zapatos escolares,True,-22.00,Venta por canal digital
+1,173,202610,2026-10-16 15:42:42,347,461,24,Entrada por compra - Zapatos escolares,True,29.00,Ingreso de nueva temporada
+1,173,202610,2026-10-29 08:44:35,414,461,74,Devolución de cliente - Zapatos escolares,True,57.00,Producto devuelto en buen estado
+1,173,202611,2026-11-01 11:27:42,436,461,74,Devolución de cliente - Zapatos escolares,True,78.00,
+1,173,202611,2026-11-07 20:24:59,472,461,374,Transferencia enviada - Zapatos escolares,True,-25.00,Enviado a otro almacén
+1,176,202608,2026-08-21 09:38:38,29,281,215,Salida por venta - Ropa deportiva,True,-4.00,Venta mayorista
+1,176,202609,2026-09-07 17:25:26,126,281,365,Transferencia enviada - Ropa deportiva,True,-16.00,Transferencia entre locales
+1,176,202609,2026-09-18 19:46:33,180,281,365,Transferencia enviada - Ropa deportiva,True,-25.00,Transferencia entre locales
+1,176,202609,2026-09-24 16:56:46,226,281,165,Transferencia recibida - Ropa deportiva,True,40.00,
+1,176,202609,2026-09-25 15:46:33,228,281,165,Transferencia recibida - Ropa deportiva,True,46.00,Recibido desde otro almacén
+1,176,202609,2026-09-29 13:16:01,253,281,365,Transferencia enviada - Ropa deportiva,True,-17.00,Transferencia entre locales
+1,176,202610,2026-10-03 13:29:37,275,281,15,Entrada por compra - Ropa deportiva,True,38.00,Reposición semanal
+1,176,202610,2026-10-25 17:31:28,403,281,215,Salida por venta - Ropa deportiva,True,-12.00,Venta en tienda
+1,176,202610,2026-10-27 19:45:27,411,281,165,Transferencia recibida - Ropa deportiva,True,26.00,Transferencia entre locales
+1,176,202611,2026-11-01 15:12:04,439,281,265,Merma - Ropa deportiva,True,-23.00,Producto dañado
+1,194,202609,2026-09-05 09:19:46,105,221,12,Entrada por compra - Ropa interior,True,50.00,Ingreso de nueva temporada
+1,194,202609,2026-09-15 17:27:33,166,221,212,Salida por venta - Ropa interior,True,-23.00,
+1,194,202609,2026-09-20 19:15:46,196,221,212,Salida por venta - Ropa interior,True,-21.00,Venta mayorista
+1,194,202609,2026-09-21 18:03:33,205,221,12,Entrada por compra - Ropa interior,True,55.00,
+1,194,202610,2026-10-06 14:21:24,290,221,262,Merma - Ropa interior,True,-23.00,Pérdida en almacén
+1,194,202610,2026-10-19 15:30:43,358,221,362,Transferencia enviada - Ropa interior,True,-8.00,
+1,194,202610,2026-10-24 10:19:15,392,221,12,Entrada por compra - Ropa interior,True,40.00,Ingreso de nueva temporada
+1,194,202610,2026-10-30 16:23:35,423,221,212,Salida por venta - Ropa interior,True,-30.00,
+1,194,202610,2026-10-31 10:47:18,424,221,412,Consumo interno - Ropa interior,True,-26.00,
+1,194,202611,2026-11-12 10:52:24,490,221,12,Entrada por compra - Ropa interior,True,25.00,
+1,215,202608,2026-08-17 15:16:14,14,1,1,Entrada por compra - Polos,True,20.00,Reposición semanal
+1,215,202608,2026-08-24 08:29:29,46,1,401,Consumo interno - Polos,True,-6.00,Muestra para vitrina
+1,215,202609,2026-09-01 19:34:26,88,1,201,Salida por venta - Polos,True,-16.00,Venta en tienda
+1,215,202609,2026-09-08 17:45:58,133,1,201,Salida por venta - Polos,True,-7.00,Venta en tienda
+1,215,202609,2026-09-14 15:53:04,163,1,1,Entrada por compra - Polos,True,26.00,
+1,215,202609,2026-09-26 16:04:16,231,1,201,Salida por venta - Polos,True,-16.00,Venta mayorista
+1,215,202610,2026-10-01 13:52:00,264,1,201,Salida por venta - Polos,True,-9.00,Venta en tienda
+1,215,202610,2026-10-06 18:37:44,294,1,201,Salida por venta - Polos,True,-3.00,Venta mayorista
+1,215,202610,2026-10-13 20:43:55,328,1,151,Transferencia recibida - Polos,True,74.00,Recibido desde otro almacén
+1,215,202610,2026-10-21 09:33:25,366,1,1,Entrada por compra - Polos,True,33.00,Compra a proveedor
+1,386,202608,2026-08-22 18:33:33,37,41,3,Entrada por compra - Blusas,True,62.00,Reposición semanal
+1,386,202608,2026-08-28 12:24:25,67,41,3,Entrada por compra - Blusas,True,72.00,Reposición semanal
+1,386,202609,2026-09-03 18:57:51,102,41,3,Entrada por compra - Blusas,True,61.00,Reposición semanal
+1,386,202609,2026-09-05 15:08:10,109,41,3,Entrada por compra - Blusas,True,49.00,Reposición semanal
+1,386,202609,2026-09-23 17:44:11,219,41,3,Entrada por compra - Blusas,True,36.00,Reposición semanal
+1,386,202610,2026-10-10 10:40:41,311,41,253,Merma - Blusas,True,-23.00,
+1,386,202610,2026-10-21 20:07:09,373,41,203,Salida por venta - Blusas,True,-30.00,
+1,386,202610,2026-10-23 12:09:49,384,41,253,Merma - Blusas,True,-12.00,Producto dañado
+1,386,202610,2026-10-31 16:12:34,425,41,203,Salida por venta - Blusas,True,-21.00,Venta en tienda
+1,386,202611,2026-11-09 12:42:33,478,41,3,Entrada por compra - Blusas,True,31.00,Ingreso de nueva temporada
+1,468,202608,2026-08-17 11:03:32,11,241,13,Entrada por compra - Medias,True,42.00,
+1,468,202608,2026-08-22 12:33:34,34,241,163,Transferencia recibida - Medias,True,71.00,Transferencia entre locales
+1,468,202608,2026-08-26 09:11:23,57,241,13,Entrada por compra - Medias,True,23.00,Ingreso de nueva temporada
+1,468,202609,2026-09-27 20:28:51,245,241,413,Consumo interno - Medias,True,-4.00,
+1,468,202609,2026-09-28 09:05:29,246,241,363,Transferencia enviada - Medias,True,-27.00,Transferencia entre locales
+1,468,202610,2026-10-16 20:38:00,350,241,163,Transferencia recibida - Medias,True,66.00,Transferencia entre locales
+1,468,202610,2026-10-23 14:21:47,387,241,213,Salida por venta - Medias,True,-7.00,
+1,468,202610,2026-10-27 19:28:40,410,241,213,Salida por venta - Medias,True,-30.00,Venta por canal digital
+1,468,202610,2026-10-30 13:23:06,420,241,13,Entrada por compra - Medias,True,35.00,
+1,468,202611,2026-11-07 19:48:05,471,241,213,Salida por venta - Medias,True,-15.00,Venta por canal digital
+1,471,202608,2026-08-24 20:16:08,52,481,175,Transferencia recibida - Botas,True,41.00,Transferencia entre locales
+1,471,202608,2026-08-27 16:19:24,64,481,25,Entrada por compra - Botas,True,70.00,Ingreso de nueva temporada
+1,471,202609,2026-09-01 09:30:36,83,481,125,Ajuste positivo - Botas,True,22.00,Sobrante detectado en conteo
+1,471,202609,2026-09-01 20:10:15,89,481,25,Entrada por compra - Botas,True,23.00,
+1,471,202609,2026-09-05 11:42:53,106,481,25,Entrada por compra - Botas,True,46.00,Ingreso de nueva temporada
+1,471,202609,2026-09-09 19:16:44,139,481,225,Salida por venta - Botas,True,-17.00,Venta por canal digital
+1,471,202609,2026-09-19 15:34:00,185,481,225,Salida por venta - Botas,True,-24.00,
+1,471,202610,2026-10-08 11:26:15,299,481,275,Merma - Botas,True,-15.00,Producto dañado
+1,471,202610,2026-10-12 18:32:14,318,481,425,Consumo interno - Botas,True,-18.00,
+1,471,202610,2026-10-19 11:11:28,356,481,225,Salida por venta - Botas,True,-10.00,Venta mayorista
+2,17,202608,2026-08-22 08:43:11,32,122,207,Salida por venta - Faldas,True,-5.00,Venta mayorista
+2,17,202608,2026-08-23 16:36:55,44,122,207,Salida por venta - Faldas,True,-12.00,Venta mayorista
+2,17,202608,2026-08-27 11:00:54,61,122,7,Entrada por compra - Faldas,True,80.00,Compra a proveedor
+2,17,202609,2026-09-07 10:56:00,121,122,357,Transferencia enviada - Faldas,True,-12.00,
+2,17,202609,2026-09-08 12:34:26,128,122,7,Entrada por compra - Faldas,True,66.00,Compra a proveedor
+2,17,202609,2026-09-18 16:38:17,177,122,157,Transferencia recibida - Faldas,True,57.00,
+2,17,202609,2026-09-24 10:56:35,222,122,207,Salida por venta - Faldas,True,-28.00,Venta en tienda
+2,17,202610,2026-10-01 08:27:27,262,122,307,Ajuste negativo - Faldas,True,-30.00,Regularización de inventario
+2,17,202610,2026-10-02 14:11:45,270,122,207,Salida por venta - Faldas,True,-26.00,Venta por canal digital
+2,17,202611,2026-11-08 15:58:56,474,122,207,Salida por venta - Faldas,True,-12.00,Venta por canal digital
+2,99,202608,2026-08-19 19:35:18,25,482,325,Ajuste negativo - Botas,True,-6.00,Regularización de inventario
+2,99,202608,2026-08-23 08:45:49,40,482,225,Salida por venta - Botas,True,-9.00,Venta por canal digital
+2,99,202608,2026-08-23 12:08:45,43,482,25,Entrada por compra - Botas,True,31.00,Ingreso de nueva temporada
+2,99,202608,2026-08-25 18:23:12,56,482,75,Devolución de cliente - Botas,True,46.00,Devolución con boleta
+2,99,202609,2026-09-06 12:32:21,114,482,225,Salida por venta - Botas,True,-1.00,
+2,99,202609,2026-09-12 16:57:31,155,482,325,Ajuste negativo - Botas,True,-25.00,
+2,99,202610,2026-10-01 18:17:08,267,482,375,Transferencia enviada - Botas,True,-8.00,Transferencia entre locales
+2,99,202610,2026-10-02 16:02:23,272,482,175,Transferencia recibida - Botas,True,72.00,Recibido desde otro almacén
+2,99,202610,2026-10-08 12:28:40,301,482,325,Ajuste negativo - Botas,True,-20.00,Regularización de inventario
+2,99,202610,2026-10-31 20:27:49,430,482,225,Salida por venta - Botas,True,-1.00,
+2,101,202608,2026-08-24 15:32:57,47,2,251,Merma - Polos,True,-8.00,Pérdida en almacén
+2,101,202609,2026-09-02 20:28:31,98,2,1,Entrada por compra - Polos,True,54.00,
+2,101,202609,2026-09-07 17:53:48,127,2,151,Transferencia recibida - Polos,True,36.00,Recibido desde otro almacén
+2,101,202609,2026-09-20 20:49:49,200,2,351,Transferencia enviada - Polos,True,-29.00,Enviado a otro almacén
+2,101,202610,2026-10-07 08:11:40,295,2,401,Consumo interno - Polos,True,-23.00,Uso en exhibición
+2,101,202610,2026-10-12 08:47:25,317,2,401,Consumo interno - Polos,True,-26.00,
+2,101,202610,2026-10-23 09:00:56,383,2,201,Salida por venta - Polos,True,-4.00,Venta en tienda
+2,101,202610,2026-10-26 16:07:37,406,2,51,Devolución de cliente - Polos,True,55.00,Producto devuelto en buen estado
+2,101,202611,2026-11-04 10:29:41,450,2,301,Ajuste negativo - Polos,True,-4.00,
+2,101,202611,2026-11-07 09:51:44,464,2,201,Salida por venta - Polos,True,-29.00,
+2,114,202608,2026-08-15 12:42:13,2,42,253,Merma - Blusas,True,-7.00,Producto dañado
+2,114,202608,2026-08-18 20:13:45,19,42,3,Entrada por compra - Blusas,True,22.00,
+2,114,202608,2026-08-26 12:21:34,58,42,3,Entrada por compra - Blusas,True,32.00,Compra por campaña
+2,114,202608,2026-08-31 11:18:03,76,42,353,Transferencia enviada - Blusas,True,-21.00,
+2,114,202609,2026-09-04 10:39:05,104,42,203,Salida por venta - Blusas,True,-2.00,Venta en tienda
+2,114,202610,2026-10-06 15:52:02,292,42,3,Entrada por compra - Blusas,True,65.00,Reposición semanal
+2,114,202611,2026-11-01 11:34:09,437,42,203,Salida por venta - Blusas,True,-21.00,Venta por canal digital
+2,114,202611,2026-11-03 10:37:28,447,42,203,Salida por venta - Blusas,True,-24.00,Venta por canal digital
+2,114,202611,2026-11-05 20:24:02,457,42,203,Salida por venta - Blusas,True,-14.00,Venta por canal digital
+2,114,202611,2026-11-06 09:13:48,459,42,203,Salida por venta - Blusas,True,-6.00,
+2,149,202608,2026-08-17 17:42:47,15,402,21,Entrada por compra - Zapatillas,True,55.00,Compra a proveedor
+2,149,202609,2026-09-09 18:23:50,137,402,221,Salida por venta - Zapatillas,True,-11.00,Venta por canal digital
+2,149,202609,2026-09-09 20:37:43,140,402,71,Devolución de cliente - Zapatillas,True,31.00,
+2,149,202609,2026-09-12 14:54:22,154,402,221,Salida por venta - Zapatillas,True,-2.00,
+2,149,202609,2026-09-16 17:36:02,170,402,171,Transferencia recibida - Zapatillas,True,34.00,
+2,149,202609,2026-09-27 09:07:29,238,402,421,Consumo interno - Zapatillas,True,-10.00,
+2,149,202610,2026-10-02 15:39:25,271,402,321,Ajuste negativo - Zapatillas,True,-5.00,Faltante detectado en conteo
+2,149,202610,2026-10-06 15:46:30,291,402,21,Entrada por compra - Zapatillas,True,77.00,Compra por campaña
+2,149,202610,2026-10-14 14:02:04,333,402,221,Salida por venta - Zapatillas,True,-2.00,Venta mayorista
+2,149,202610,2026-10-16 17:11:09,348,402,221,Salida por venta - Zapatillas,True,-13.00,
+2,299,202608,2026-08-20 12:06:30,27,282,215,Salida por venta - Ropa deportiva,True,-18.00,Venta en tienda
+2,299,202609,2026-09-01 15:59:57,87,282,215,Salida por venta - Ropa deportiva,True,-28.00,Venta por canal digital
+2,299,202609,2026-09-15 20:43:46,167,282,215,Salida por venta - Ropa deportiva,True,-13.00,Venta por canal digital
+2,299,202609,2026-09-20 10:02:47,188,282,15,Entrada por compra - Ropa deportiva,True,30.00,
+2,299,202609,2026-09-30 10:40:31,256,282,215,Salida por venta - Ropa deportiva,True,-5.00,Venta por canal digital
+2,299,202610,2026-10-11 18:49:40,315,282,215,Salida por venta - Ropa deportiva,True,-2.00,Venta en tienda
+2,299,202610,2026-10-13 14:27:18,324,282,65,Devolución de cliente - Ropa deportiva,True,35.00,Cambio de talla
+2,299,202610,2026-10-21 18:23:13,372,282,215,Salida por venta - Ropa deportiva,True,-5.00,Venta por canal digital
+2,299,202611,2026-11-12 09:41:19,489,282,15,Entrada por compra - Ropa deportiva,True,35.00,Compra por campaña
+2,299,202611,2026-11-13 20:28:12,500,282,215,Salida por venta - Ropa deportiva,True,-23.00,Venta mayorista
+2,366,202608,2026-08-18 17:56:16,18,62,4,Entrada por compra - Pantalones,True,30.00,Compra por campaña
+2,366,202609,2026-09-02 12:18:17,94,62,204,Salida por venta - Pantalones,True,-25.00,
+2,366,202609,2026-09-08 16:34:18,131,62,4,Entrada por compra - Pantalones,True,74.00,Compra por campaña
+2,366,202609,2026-09-19 08:07:59,182,62,4,Entrada por compra - Pantalones,True,60.00,
+2,366,202609,2026-09-20 11:38:56,189,62,254,Merma - Pantalones,True,-5.00,
+2,366,202609,2026-09-27 16:38:13,242,62,354,Transferencia enviada - Pantalones,True,-3.00,
+2,366,202610,2026-10-01 16:51:37,266,62,354,Transferencia enviada - Pantalones,True,-1.00,Transferencia entre locales
+2,366,202610,2026-10-04 11:14:38,278,62,204,Salida por venta - Pantalones,True,-12.00,Venta en tienda
+2,366,202610,2026-10-05 14:45:15,286,62,204,Salida por venta - Pantalones,True,-18.00,Venta por canal digital
+2,366,202610,2026-10-11 19:52:50,316,62,4,Entrada por compra - Pantalones,True,66.00,Ingreso de nueva temporada
+2,390,202608,2026-08-16 18:43:55,7,442,23,Entrada por compra - Sandalias,True,49.00,Ingreso de nueva temporada
+2,390,202608,2026-08-19 17:41:11,24,442,73,Devolución de cliente - Sandalias,True,69.00,
+2,390,202608,2026-08-30 14:37:34,71,442,223,Salida por venta - Sandalias,True,-20.00,Venta mayorista
+2,390,202609,2026-09-01 14:46:58,86,442,23,Entrada por compra - Sandalias,True,30.00,Compra a proveedor
+2,390,202609,2026-09-21 13:02:47,203,442,173,Transferencia recibida - Sandalias,True,80.00,Transferencia entre locales
+2,390,202610,2026-10-09 19:19:04,308,442,273,Merma - Sandalias,True,-1.00,Producto dañado
+2,390,202610,2026-10-13 14:34:45,325,442,223,Salida por venta - Sandalias,True,-1.00,Venta por canal digital
+2,390,202610,2026-10-14 15:01:17,334,442,223,Salida por venta - Sandalias,True,-18.00,
+2,390,202610,2026-10-24 09:08:11,391,442,23,Entrada por compra - Sandalias,True,56.00,Reposición semanal
+2,390,202610,2026-10-27 16:01:15,409,442,23,Entrada por compra - Sandalias,True,74.00,Reposición semanal
+2,404,202608,2026-08-18 15:00:08,17,242,163,Transferencia recibida - Medias,True,30.00,
+2,404,202609,2026-09-07 15:26:41,124,242,113,Ajuste positivo - Medias,True,35.00,Regularización de inventario
+2,404,202609,2026-09-10 13:35:22,144,242,213,Salida por venta - Medias,True,-26.00,Venta por canal digital
+2,404,202609,2026-09-16 16:14:07,169,242,413,Consumo interno - Medias,True,-11.00,Muestra para vitrina
+2,404,202609,2026-09-23 10:04:12,214,242,13,Entrada por compra - Medias,True,52.00,Ingreso de nueva temporada
+2,404,202609,2026-09-27 19:12:50,244,242,63,Devolución de cliente - Medias,True,60.00,
+2,404,202610,2026-10-09 20:32:00,309,242,13,Entrada por compra - Medias,True,48.00,Compra a proveedor
+2,404,202610,2026-10-10 09:28:35,310,242,213,Salida por venta - Medias,True,-17.00,Venta por canal digital
+2,404,202610,2026-10-25 14:42:20,401,242,113,Ajuste positivo - Medias,True,63.00,Sobrante detectado en conteo
+2,404,202610,2026-10-26 11:47:36,405,242,213,Salida por venta - Medias,True,-13.00,
+2,438,202608,2026-08-15 12:44:18,3,142,8,Entrada por compra - Vestidos,True,67.00,Ingreso de nueva temporada
+2,438,202608,2026-08-22 20:00:33,38,142,208,Salida por venta - Vestidos,True,-15.00,Venta mayorista
+2,438,202609,2026-09-02 09:10:35,93,142,8,Entrada por compra - Vestidos,True,80.00,
+2,438,202609,2026-09-13 12:01:36,156,142,408,Consumo interno - Vestidos,True,-12.00,
+2,438,202609,2026-09-26 20:09:47,235,142,58,Devolución de cliente - Vestidos,True,79.00,Devolución con boleta
+2,438,202610,2026-10-06 16:01:14,293,142,408,Consumo interno - Vestidos,True,-21.00,Muestra para vitrina
+2,438,202610,2026-10-18 16:10:58,354,142,258,Merma - Vestidos,True,-24.00,Producto dañado
+2,438,202610,2026-10-20 09:41:22,361,142,258,Merma - Vestidos,True,-10.00,Prenda manchada
+2,438,202610,2026-10-22 18:26:41,380,142,208,Salida por venta - Vestidos,True,-22.00,Venta por canal digital
+2,438,202611,2026-11-11 17:31:57,486,142,8,Entrada por compra - Vestidos,True,65.00,Compra a proveedor
+3,20,202608,2026-08-27 12:43:49,63,103,6,Entrada por compra - Shorts,True,33.00,Compra a proveedor
+3,20,202609,2026-09-06 18:20:33,118,103,6,Entrada por compra - Shorts,True,21.00,Compra a proveedor
+3,20,202609,2026-09-07 12:41:57,122,103,6,Entrada por compra - Shorts,True,24.00,
+3,20,202609,2026-09-08 16:00:11,130,103,406,Consumo interno - Shorts,True,-14.00,Uso en exhibición
+3,20,202609,2026-09-17 20:28:04,171,103,6,Entrada por compra - Shorts,True,65.00,Reposición semanal
+3,20,202610,2026-10-03 13:52:23,276,103,206,Salida por venta - Shorts,True,-16.00,
+3,20,202610,2026-10-05 14:19:15,284,103,6,Entrada por compra - Shorts,True,57.00,Compra por campaña
+3,20,202610,2026-10-08 11:50:02,300,103,256,Merma - Shorts,True,-28.00,
+3,20,202611,2026-11-05 18:03:02,456,103,206,Salida por venta - Shorts,True,-1.00,
+3,20,202611,2026-11-07 19:08:16,470,103,256,Merma - Shorts,True,-12.00,
+3,94,202609,2026-09-08 18:50:39,134,3,401,Consumo interno - Polos,True,-3.00,
+3,94,202609,2026-09-13 18:49:22,161,3,201,Salida por venta - Polos,True,-9.00,
+3,94,202609,2026-09-18 14:12:22,176,3,1,Entrada por compra - Polos,True,42.00,Compra a proveedor
+3,94,202609,2026-09-20 20:05:57,199,3,401,Consumo interno - Polos,True,-15.00,
+3,94,202609,2026-09-28 18:27:07,251,3,1,Entrada por compra - Polos,True,79.00,Compra a proveedor
+3,94,202610,2026-10-01 18:49:12,268,3,201,Salida por venta - Polos,True,-14.00,
+3,94,202610,2026-10-21 13:18:31,369,3,101,Ajuste positivo - Polos,True,57.00,Regularización de inventario
+3,94,202610,2026-10-25 16:50:39,402,3,351,Transferencia enviada - Polos,True,-3.00,
+3,94,202610,2026-10-26 19:28:20,407,3,51,Devolución de cliente - Polos,True,38.00,Devolución con boleta
+3,94,202611,2026-11-01 08:14:08,432,3,1,Entrada por compra - Polos,True,71.00,
+3,131,202608,2026-08-17 14:19:17,13,123,7,Entrada por compra - Faldas,True,61.00,Compra a proveedor
+3,131,202609,2026-09-02 08:29:05,91,123,257,Merma - Faldas,True,-8.00,Producto dañado
+3,131,202609,2026-09-09 18:31:53,138,123,407,Consumo interno - Faldas,True,-10.00,
+3,131,202609,2026-09-25 16:38:28,229,123,7,Entrada por compra - Faldas,True,24.00,Compra a proveedor
+3,131,202609,2026-09-25 19:52:54,230,123,207,Salida por venta - Faldas,True,-25.00,Venta mayorista
+3,131,202610,2026-10-04 18:29:19,281,123,207,Salida por venta - Faldas,True,-18.00,Venta en tienda
+3,131,202610,2026-10-20 18:10:19,364,123,7,Entrada por compra - Faldas,True,78.00,Reposición semanal
+3,131,202610,2026-10-21 15:07:46,370,123,7,Entrada por compra - Faldas,True,53.00,
+3,131,202611,2026-11-09 18:21:38,480,123,207,Salida por venta - Faldas,True,-25.00,
+3,131,202611,2026-11-12 08:39:59,488,123,257,Merma - Faldas,True,-28.00,Pérdida en almacén
+3,136,202608,2026-08-16 16:32:38,6,223,12,Entrada por compra - Ropa interior,True,75.00,Reposición semanal
+3,136,202608,2026-08-23 17:50:49,45,223,212,Salida por venta - Ropa interior,True,-21.00,
+3,136,202609,2026-09-27 08:50:41,237,223,362,Transferencia enviada - Ropa interior,True,-17.00,Enviado a otro almacén
+3,136,202609,2026-09-29 18:46:34,254,223,312,Ajuste negativo - Ropa interior,True,-11.00,
+3,136,202610,2026-10-01 11:32:43,263,223,212,Salida por venta - Ropa interior,True,-28.00,Venta por canal digital
+3,136,202610,2026-10-08 14:27:21,302,223,312,Ajuste negativo - Ropa interior,True,-29.00,Regularización de inventario
+3,136,202610,2026-10-11 13:11:40,314,223,12,Entrada por compra - Ropa interior,True,41.00,
+3,136,202610,2026-10-13 16:43:28,326,223,212,Salida por venta - Ropa interior,True,-28.00,Venta en tienda
+3,136,202610,2026-10-15 10:56:54,340,223,212,Salida por venta - Ropa interior,True,-22.00,Venta mayorista
+3,136,202611,2026-11-06 20:53:03,463,223,12,Entrada por compra - Ropa interior,True,80.00,
+3,190,202608,2026-08-24 16:03:54,48,383,220,Salida por venta - Chalecos,True,-24.00,Venta mayorista
+3,190,202609,2026-09-01 09:09:32,81,383,220,Salida por venta - Chalecos,True,-5.00,Venta en tienda
+3,190,202609,2026-09-01 13:25:19,84,383,220,Salida por venta - Chalecos,True,-5.00,
+3,190,202609,2026-09-12 08:28:21,153,383,220,Salida por venta - Chalecos,True,-10.00,Venta por canal digital
+3,190,202609,2026-09-22 14:40:57,209,383,320,Ajuste negativo - Chalecos,True,-23.00,Regularización de inventario
+3,190,202609,2026-09-24 15:02:50,224,383,20,Entrada por compra - Chalecos,True,57.00,Compra por campaña
+3,190,202610,2026-10-15 10:46:55,339,383,270,Merma - Chalecos,True,-26.00,
+3,190,202610,2026-10-15 19:40:07,344,383,220,Salida por venta - Chalecos,True,-7.00,Venta por canal digital
+3,190,202611,2026-11-04 13:33:11,452,383,20,Entrada por compra - Chalecos,True,68.00,
+3,190,202611,2026-11-10 09:53:45,481,383,220,Salida por venta - Chalecos,True,-6.00,Venta mayorista
+3,226,202609,2026-09-01 08:24:47,80,263,64,Devolución de cliente - Pijamas,True,43.00,Cambio de talla
+3,226,202609,2026-09-02 13:13:21,96,263,314,Ajuste negativo - Pijamas,True,-29.00,Regularización de inventario
+3,226,202609,2026-09-10 16:44:20,145,263,14,Entrada por compra - Pijamas,True,34.00,
+3,226,202609,2026-09-11 10:49:59,148,263,414,Consumo interno - Pijamas,True,-26.00,Muestra para vitrina
+3,226,202609,2026-09-11 11:02:40,149,263,214,Salida por venta - Pijamas,True,-6.00,
+3,226,202609,2026-09-22 13:15:44,208,263,214,Salida por venta - Pijamas,True,-4.00,
+3,226,202610,2026-10-07 12:29:34,296,263,14,Entrada por compra - Pijamas,True,79.00,Compra por campaña
+3,226,202610,2026-10-08 14:51:12,303,263,214,Salida por venta - Pijamas,True,-22.00,Venta en tienda
+3,226,202610,2026-10-15 14:44:11,343,263,214,Salida por venta - Pijamas,True,-14.00,Venta mayorista
+3,226,202611,2026-11-04 19:30:04,453,263,214,Salida por venta - Pijamas,True,-9.00,Venta mayorista
+3,275,202608,2026-08-19 11:29:57,21,323,17,Entrada por compra - Ropa de bebé,True,79.00,Compra a proveedor
+3,275,202608,2026-08-27 12:06:31,62,323,267,Merma - Ropa de bebé,True,-23.00,Pérdida en almacén
+3,275,202609,2026-09-03 13:46:07,99,323,217,Salida por venta - Ropa de bebé,True,-27.00,
+3,275,202609,2026-09-08 17:30:59,132,323,17,Entrada por compra - Ropa de bebé,True,25.00,Compra por campaña
+3,275,202609,2026-09-13 13:33:39,157,323,217,Salida por venta - Ropa de bebé,True,-15.00,Venta por canal digital
+3,275,202609,2026-09-18 20:41:13,181,323,217,Salida por venta - Ropa de bebé,True,-3.00,Venta en tienda
+3,275,202609,2026-09-23 14:36:27,216,323,117,Ajuste positivo - Ropa de bebé,True,69.00,
+3,275,202609,2026-09-26 16:05:34,232,323,217,Salida por venta - Ropa de bebé,True,-11.00,Venta mayorista
+3,275,202610,2026-10-04 18:12:53,280,323,217,Salida por venta - Ropa de bebé,True,-28.00,
+3,275,202610,2026-10-05 11:07:22,282,323,417,Consumo interno - Ropa de bebé,True,-17.00,Muestra para vitrina
+3,300,202608,2026-08-29 20:36:37,70,43,203,Salida por venta - Blusas,True,-23.00,Venta mayorista
+3,300,202609,2026-09-01 09:23:12,82,43,303,Ajuste negativo - Blusas,True,-20.00,
+3,300,202609,2026-09-06 09:48:44,112,43,3,Entrada por compra - Blusas,True,25.00,
+3,300,202609,2026-09-16 14:14:23,168,43,303,Ajuste negativo - Blusas,True,-12.00,Faltante detectado en conteo
+3,300,202609,2026-09-30 17:36:02,259,43,3,Entrada por compra - Blusas,True,20.00,Compra por campaña
+3,300,202610,2026-10-05 14:32:44,285,43,203,Salida por venta - Blusas,True,-17.00,
+3,300,202610,2026-10-16 08:11:58,345,43,303,Ajuste negativo - Blusas,True,-12.00,Regularización de inventario
+3,300,202610,2026-10-24 13:18:45,395,43,153,Transferencia recibida - Blusas,True,62.00,Transferencia entre locales
+3,300,202610,2026-10-29 12:17:01,415,43,203,Salida por venta - Blusas,True,-10.00,Venta en tienda
+3,300,202611,2026-11-01 13:39:49,438,43,353,Transferencia enviada - Blusas,True,-18.00,Enviado a otro almacén
+3,347,202608,2026-08-25 09:43:40,53,403,371,Transferencia enviada - Zapatillas,True,-29.00,Transferencia entre locales
+3,347,202609,2026-09-20 14:16:06,194,403,121,Ajuste positivo - Zapatillas,True,34.00,Sobrante detectado en conteo
+3,347,202609,2026-09-20 18:56:23,195,403,221,Salida por venta - Zapatillas,True,-4.00,
+3,347,202609,2026-09-28 12:13:26,249,403,321,Ajuste negativo - Zapatillas,True,-14.00,
+3,347,202610,2026-10-08 11:23:53,298,403,21,Entrada por compra - Zapatillas,True,65.00,Compra por campaña
+3,347,202610,2026-10-15 08:15:43,337,403,221,Salida por venta - Zapatillas,True,-9.00,Venta en tienda
+3,347,202610,2026-10-20 09:22:56,360,403,221,Salida por venta - Zapatillas,True,-27.00,
+3,347,202610,2026-10-22 08:23:39,374,403,21,Entrada por compra - Zapatillas,True,29.00,Compra por campaña
+3,347,202610,2026-10-24 13:07:19,394,403,221,Salida por venta - Zapatillas,True,-28.00,Venta mayorista
+3,347,202610,2026-10-25 13:46:01,400,403,71,Devolución de cliente - Zapatillas,True,77.00,Cambio de talla
+3,387,202608,2026-08-20 08:10:07,26,243,213,Salida por venta - Medias,True,-28.00,Venta por canal digital
+3,387,202608,2026-08-31 10:55:26,75,243,13,Entrada por compra - Medias,True,69.00,
+3,387,202609,2026-09-05 19:05:48,110,243,213,Salida por venta - Medias,True,-22.00,Venta por canal digital
+3,387,202609,2026-09-06 13:34:14,115,243,13,Entrada por compra - Medias,True,35.00,
+3,387,202609,2026-09-29 18:58:55,255,243,63,Devolución de cliente - Medias,True,39.00,
+3,387,202610,2026-10-13 19:05:53,327,243,113,Ajuste positivo - Medias,True,40.00,
+3,387,202610,2026-10-20 09:12:33,359,243,13,Entrada por compra - Medias,True,58.00,Ingreso de nueva temporada
+3,387,202611,2026-11-01 10:37:15,435,243,213,Salida por venta - Medias,True,-7.00,
+3,387,202611,2026-11-04 11:52:36,451,243,163,Transferencia recibida - Medias,True,27.00,
+3,387,202611,2026-11-09 14:10:55,479,243,313,Ajuste negativo - Medias,True,-29.00,Regularización de inventario
+3,388,202608,2026-08-24 17:34:51,49,63,254,Merma - Pantalones,True,-7.00,Pérdida en almacén
+3,388,202609,2026-09-10 08:03:14,141,63,4,Entrada por compra - Pantalones,True,44.00,Compra por campaña
+3,388,202609,2026-09-13 16:28:06,158,63,54,Devolución de cliente - Pantalones,True,77.00,
+3,388,202609,2026-09-13 17:02:33,159,63,354,Transferencia enviada - Pantalones,True,-12.00,Enviado a otro almacén
+3,388,202609,2026-09-27 08:03:00,236,63,354,Transferencia enviada - Pantalones,True,-17.00,
+3,388,202610,2026-10-03 11:13:22,273,63,4,Entrada por compra - Pantalones,True,75.00,Reposición semanal
+3,388,202610,2026-10-23 14:12:05,386,63,204,Salida por venta - Pantalones,True,-15.00,Venta mayorista
+3,388,202610,2026-10-23 14:57:36,388,63,304,Ajuste negativo - Pantalones,True,-26.00,Regularización de inventario
+3,388,202611,2026-11-01 09:27:45,433,63,204,Salida por venta - Pantalones,True,-24.00,Venta por canal digital
+3,388,202611,2026-11-01 09:56:44,434,63,4,Entrada por compra - Pantalones,True,55.00,Ingreso de nueva temporada
+3,395,202608,2026-08-18 13:16:54,16,443,73,Devolución de cliente - Sandalias,True,80.00,Cambio de talla
+3,395,202609,2026-09-18 13:30:27,175,443,223,Salida por venta - Sandalias,True,-7.00,Venta por canal digital
+3,395,202609,2026-09-21 08:33:15,202,443,123,Ajuste positivo - Sandalias,True,66.00,
+3,395,202610,2026-10-06 11:29:47,289,443,223,Salida por venta - Sandalias,True,-16.00,Venta mayorista
+3,395,202610,2026-10-12 20:03:09,319,443,373,Transferencia enviada - Sandalias,True,-29.00,Enviado a otro almacén
+3,395,202610,2026-10-23 13:20:37,385,443,373,Transferencia enviada - Sandalias,True,-15.00,
+3,395,202611,2026-11-02 08:58:23,444,443,23,Entrada por compra - Sandalias,True,53.00,
+3,395,202611,2026-11-04 20:08:53,454,443,423,Consumo interno - Sandalias,True,-18.00,Muestra para vitrina
+3,395,202611,2026-11-07 14:34:14,468,443,223,Salida por venta - Sandalias,True,-25.00,
+3,395,202611,2026-11-11 17:49:46,487,443,373,Transferencia enviada - Sandalias,True,-29.00,
+3,421,202609,2026-09-26 16:54:51,234,283,165,Transferencia recibida - Ropa deportiva,True,51.00,
+3,421,202609,2026-09-27 11:32:37,240,283,15,Entrada por compra - Ropa deportiva,True,52.00,Compra por campaña
+3,421,202609,2026-09-30 20:32:56,261,283,365,Transferencia enviada - Ropa deportiva,True,-8.00,Transferencia entre locales
+3,421,202610,2026-10-15 09:22:50,338,283,315,Ajuste negativo - Ropa deportiva,True,-15.00,Faltante detectado en conteo
+3,421,202610,2026-10-17 19:48:24,352,283,215,Salida por venta - Ropa deportiva,True,-12.00,Venta en tienda
+3,421,202610,2026-10-21 11:08:40,368,283,365,Transferencia enviada - Ropa deportiva,True,-26.00,Enviado a otro almacén
+3,421,202610,2026-10-21 16:05:22,371,283,265,Merma - Ropa deportiva,True,-10.00,Prenda manchada
+3,421,202610,2026-10-23 08:22:57,382,283,215,Salida por venta - Ropa deportiva,True,-4.00,
+3,421,202610,2026-10-29 20:18:01,418,283,65,Devolución de cliente - Ropa deportiva,True,36.00,
+3,421,202611,2026-11-01 16:18:31,440,283,265,Merma - Ropa deportiva,True,-30.00,
+3,457,202608,2026-08-15 10:50:54,1,343,168,Transferencia recibida - Ropa infantil,True,25.00,
+3,457,202608,2026-08-27 16:59:57,65,343,318,Ajuste negativo - Ropa infantil,True,-21.00,Regularización de inventario
+3,457,202608,2026-08-29 16:31:09,69,343,218,Salida por venta - Ropa infantil,True,-3.00,Venta mayorista
+3,457,202609,2026-09-10 09:34:56,142,343,18,Entrada por compra - Ropa infantil,True,62.00,Ingreso de nueva temporada
+3,457,202609,2026-09-20 09:44:02,187,343,68,Devolución de cliente - Ropa infantil,True,78.00,Cambio de talla
+3,457,202609,2026-09-27 17:24:30,243,343,368,Transferencia enviada - Ropa infantil,True,-15.00,Enviado a otro almacén
+3,457,202610,2026-10-14 18:54:57,336,343,18,Entrada por compra - Ropa infantil,True,25.00,
+3,457,202610,2026-10-22 16:58:57,378,343,218,Salida por venta - Ropa infantil,True,-29.00,Venta en tienda
+3,457,202611,2026-11-07 17:51:43,469,343,218,Salida por venta - Ropa infantil,True,-19.00,Venta mayorista
+3,457,202611,2026-11-12 16:33:42,496,343,18,Entrada por compra - Ropa infantil,True,77.00,Reposición semanal
+4,25,202608,2026-08-19 10:17:35,20,124,357,Transferencia enviada - Faldas,True,-7.00,Enviado a otro almacén
+4,25,202608,2026-08-22 17:58:47,36,124,207,Salida por venta - Faldas,True,-18.00,Venta mayorista
+4,25,202609,2026-09-02 17:36:49,97,124,207,Salida por venta - Faldas,True,-1.00,
+4,25,202609,2026-09-20 13:54:12,192,124,207,Salida por venta - Faldas,True,-7.00,
+4,25,202609,2026-09-23 18:17:43,220,124,207,Salida por venta - Faldas,True,-17.00,Venta mayorista
+4,25,202610,2026-10-10 20:00:58,313,124,7,Entrada por compra - Faldas,True,69.00,
+4,25,202610,2026-10-23 20:52:31,390,124,257,Merma - Faldas,True,-5.00,Prenda manchada
+4,25,202610,2026-10-30 14:04:58,421,124,57,Devolución de cliente - Faldas,True,76.00,Producto devuelto en buen estado
+4,25,202610,2026-10-31 16:21:13,426,124,207,Salida por venta - Faldas,True,-8.00,
+4,25,202611,2026-11-08 16:33:02,475,124,207,Salida por venta - Faldas,True,-9.00,
+4,26,202608,2026-08-16 20:01:52,8,224,412,Consumo interno - Ropa interior,True,-28.00,Uso en exhibición
+4,26,202608,2026-08-21 12:58:16,30,224,212,Salida por venta - Ropa interior,True,-19.00,
+4,26,202608,2026-08-22 13:11:40,35,224,162,Transferencia recibida - Ropa interior,True,80.00,Transferencia entre locales
+4,26,202608,2026-08-30 16:39:06,73,224,212,Salida por venta - Ropa interior,True,-10.00,
+4,26,202609,2026-09-19 10:14:46,183,224,362,Transferencia enviada - Ropa interior,True,-5.00,Enviado a otro almacén
+4,26,202609,2026-09-24 16:46:21,225,224,12,Entrada por compra - Ropa interior,True,64.00,
+4,26,202610,2026-10-08 16:06:47,304,224,212,Salida por venta - Ropa interior,True,-3.00,Venta por canal digital
+4,26,202610,2026-10-14 11:01:52,331,224,212,Salida por venta - Ropa interior,True,-22.00,Venta mayorista
+4,26,202610,2026-10-22 14:59:28,376,224,212,Salida por venta - Ropa interior,True,-14.00,Venta mayorista
+4,26,202610,2026-10-25 11:45:30,398,224,212,Salida por venta - Ropa interior,True,-19.00,
+4,33,202608,2026-08-27 10:46:07,60,264,214,Salida por venta - Pijamas,True,-1.00,Venta mayorista
+4,33,202609,2026-09-06 20:26:03,119,264,214,Salida por venta - Pijamas,True,-8.00,
+4,33,202609,2026-09-20 13:50:06,191,264,164,Transferencia recibida - Pijamas,True,52.00,Transferencia entre locales
+4,33,202609,2026-09-28 10:02:09,247,264,214,Salida por venta - Pijamas,True,-27.00,
+4,33,202610,2026-10-09 18:14:29,307,264,214,Salida por venta - Pijamas,True,-21.00,Venta en tienda
+4,33,202610,2026-10-13 13:40:21,322,264,214,Salida por venta - Pijamas,True,-23.00,Venta en tienda
+4,33,202610,2026-10-14 10:52:07,330,264,214,Salida por venta - Pijamas,True,-1.00,Venta mayorista
+4,33,202610,2026-10-22 17:05:14,379,264,214,Salida por venta - Pijamas,True,-30.00,Venta en tienda
+4,33,202611,2026-11-06 14:25:23,461,264,214,Salida por venta - Pijamas,True,-23.00,
+4,33,202611,2026-11-08 20:18:52,477,264,264,Merma - Pijamas,True,-20.00,Producto dañado
+4,98,202608,2026-08-16 08:50:46,5,64,154,Transferencia recibida - Pantalones,True,33.00,Transferencia entre locales
+4,98,202608,2026-08-19 13:21:07,23,64,304,Ajuste negativo - Pantalones,True,-20.00,Faltante detectado en conteo
+4,98,202608,2026-08-22 10:14:24,33,64,354,Transferencia enviada - Pantalones,True,-9.00,
+4,98,202608,2026-08-26 15:12:28,59,64,404,Consumo interno - Pantalones,True,-17.00,Muestra para vitrina
+4,98,202609,2026-09-05 20:39:08,111,64,4,Entrada por compra - Pantalones,True,48.00,Reposición semanal
+4,98,202609,2026-09-26 16:15:39,233,64,254,Merma - Pantalones,True,-20.00,
+4,98,202610,2026-10-21 10:05:20,367,64,354,Transferencia enviada - Pantalones,True,-8.00,Enviado a otro almacén
+4,98,202610,2026-10-22 16:51:46,377,64,204,Salida por venta - Pantalones,True,-17.00,
+4,98,202610,2026-10-23 08:15:54,381,64,54,Devolución de cliente - Pantalones,True,33.00,Devolución con boleta
+4,98,202610,2026-10-29 20:32:55,419,64,204,Salida por venta - Pantalones,True,-20.00,Venta en tienda
+4,107,202609,2026-09-05 13:53:35,108,204,11,Entrada por compra - Chompas,True,29.00,Ingreso de nueva temporada
+4,107,202609,2026-09-07 13:35:58,123,204,161,Transferencia recibida - Chompas,True,79.00,Transferencia entre locales
+4,107,202609,2026-09-18 12:07:58,174,204,411,Consumo interno - Chompas,True,-14.00,
+4,107,202609,2026-09-21 19:20:48,206,204,161,Transferencia recibida - Chompas,True,32.00,
+4,107,202610,2026-10-05 18:51:24,287,204,61,Devolución de cliente - Chompas,True,57.00,Devolución con boleta
+4,107,202610,2026-10-24 14:46:24,396,204,11,Entrada por compra - Chompas,True,38.00,Ingreso de nueva temporada
+4,107,202610,2026-10-25 09:34:59,397,204,211,Salida por venta - Chompas,True,-5.00,Venta por canal digital
+4,107,202611,2026-11-01 19:50:21,442,204,211,Salida por venta - Chompas,True,-21.00,Venta por canal digital
+4,107,202611,2026-11-12 12:58:52,491,204,361,Transferencia enviada - Chompas,True,-6.00,Transferencia entre locales
+4,107,202611,2026-11-12 15:54:26,495,204,161,Transferencia recibida - Chompas,True,70.00,Recibido desde otro almacén
+4,129,202608,2026-08-24 19:33:07,51,344,218,Salida por venta - Ropa infantil,True,-27.00,Venta en tienda
+4,129,202609,2026-09-19 14:35:56,184,344,68,Devolución de cliente - Ropa infantil,True,60.00,Devolución con boleta
+4,129,202609,2026-09-23 08:17:47,213,344,418,Consumo interno - Ropa infantil,True,-4.00,
+4,129,202609,2026-09-24 19:45:52,227,344,218,Salida por venta - Ropa infantil,True,-17.00,Venta en tienda
+4,129,202609,2026-09-30 20:28:14,260,344,168,Transferencia recibida - Ropa infantil,True,74.00,
+4,129,202610,2026-10-04 17:31:28,279,344,168,Transferencia recibida - Ropa infantil,True,62.00,Recibido desde otro almacén
+4,129,202610,2026-10-06 09:52:24,288,344,268,Merma - Ropa infantil,True,-27.00,Producto dañado
+4,129,202610,2026-10-14 17:05:35,335,344,68,Devolución de cliente - Ropa infantil,True,74.00,Devolución con boleta
+4,129,202611,2026-11-03 10:19:16,446,344,218,Salida por venta - Ropa infantil,True,-13.00,
+4,129,202611,2026-11-08 08:58:19,473,344,418,Consumo interno - Ropa infantil,True,-30.00,Uso en exhibición
+4,148,202608,2026-08-15 16:53:21,4,44,203,Salida por venta - Blusas,True,-23.00,Venta mayorista
+4,148,202608,2026-08-27 20:21:10,66,44,203,Salida por venta - Blusas,True,-22.00,Venta en tienda
+4,148,202609,2026-09-11 08:32:04,147,44,203,Salida por venta - Blusas,True,-6.00,Venta por canal digital
+4,148,202609,2026-09-15 09:39:21,164,44,203,Salida por venta - Blusas,True,-13.00,
+4,148,202609,2026-09-18 08:13:07,172,44,53,Devolución de cliente - Blusas,True,51.00,
+4,148,202609,2026-09-22 16:58:12,212,44,403,Consumo interno - Blusas,True,-23.00,Uso en exhibición
+4,148,202609,2026-09-30 11:55:02,258,44,353,Transferencia enviada - Blusas,True,-25.00,Transferencia entre locales
+4,148,202610,2026-10-16 20:11:22,349,44,203,Salida por venta - Blusas,True,-22.00,Venta en tienda
+4,148,202610,2026-10-20 13:44:21,363,44,3,Entrada por compra - Blusas,True,52.00,
+4,148,202611,2026-11-02 08:44:53,443,44,203,Salida por venta - Blusas,True,-11.00,
+4,154,202609,2026-09-09 09:51:49,136,444,223,Salida por venta - Sandalias,True,-9.00,Venta en tienda
+4,154,202609,2026-09-20 19:32:30,198,444,23,Entrada por compra - Sandalias,True,44.00,Compra a proveedor
+4,154,202609,2026-09-22 10:45:06,207,444,273,Merma - Sandalias,True,-18.00,Producto dañado
+4,154,202609,2026-09-30 11:26:53,257,444,123,Ajuste positivo - Sandalias,True,61.00,
+4,154,202610,2026-10-01 14:37:37,265,444,223,Salida por venta - Sandalias,True,-24.00,Venta por canal digital
+4,154,202610,2026-10-07 18:50:09,297,444,423,Consumo interno - Sandalias,True,-2.00,Muestra para vitrina
+4,154,202610,2026-10-21 09:10:44,365,444,223,Salida por venta - Sandalias,True,-3.00,
+4,154,202610,2026-10-25 12:29:07,399,444,23,Entrada por compra - Sandalias,True,62.00,
+4,154,202610,2026-10-31 20:20:22,428,444,223,Salida por venta - Sandalias,True,-6.00,
+4,154,202611,2026-11-06 12:47:34,460,444,223,Salida por venta - Sandalias,True,-30.00,
+4,160,202608,2026-08-17 09:51:32,10,404,21,Entrada por compra - Zapatillas,True,37.00,
+4,160,202608,2026-08-23 12:04:02,42,404,221,Salida por venta - Zapatillas,True,-7.00,Venta por canal digital
+4,160,202608,2026-08-25 12:51:23,55,404,21,Entrada por compra - Zapatillas,True,30.00,Ingreso de nueva temporada
+4,160,202609,2026-09-01 13:53:03,85,404,21,Entrada por compra - Zapatillas,True,53.00,Compra a proveedor
+4,160,202609,2026-09-11 12:44:56,151,404,21,Entrada por compra - Zapatillas,True,71.00,Compra a proveedor
+4,160,202609,2026-09-20 14:12:07,193,404,371,Transferencia enviada - Zapatillas,True,-17.00,Enviado a otro almacén
+4,160,202609,2026-09-27 13:34:51,241,404,321,Ajuste negativo - Zapatillas,True,-27.00,Regularización de inventario
+4,160,202610,2026-10-05 13:12:39,283,404,171,Transferencia recibida - Zapatillas,True,73.00,
+4,160,202611,2026-11-02 17:36:19,445,404,21,Entrada por compra - Zapatillas,True,35.00,Reposición semanal
+4,160,202611,2026-11-08 16:57:29,476,404,221,Salida por venta - Zapatillas,True,-23.00,Venta por canal digital
+4,220,202609,2026-09-02 08:51:44,92,4,201,Salida por venta - Polos,True,-29.00,Venta por canal digital
+4,220,202609,2026-09-03 14:28:14,100,4,1,Entrada por compra - Polos,True,76.00,
+4,220,202609,2026-09-05 12:04:43,107,4,401,Consumo interno - Polos,True,-10.00,Uso en exhibición
+4,220,202609,2026-09-11 11:54:52,150,4,1,Entrada por compra - Polos,True,20.00,
+4,220,202609,2026-09-15 10:43:26,165,4,301,Ajuste negativo - Polos,True,-22.00,Regularización de inventario
+4,220,202609,2026-09-18 16:45:50,178,4,1,Entrada por compra - Polos,True,62.00,Ingreso de nueva temporada
+4,220,202610,2026-10-25 19:28:09,404,4,201,Salida por venta - Polos,True,-18.00,Venta en tienda
+4,220,202610,2026-10-30 16:22:45,422,4,401,Consumo interno - Polos,True,-3.00,Muestra para vitrina
+4,220,202610,2026-10-31 20:44:11,431,4,151,Transferencia recibida - Polos,True,23.00,
+4,220,202611,2026-11-07 10:36:56,467,4,1,Entrada por compra - Polos,True,41.00,Reposición semanal
+4,234,202609,2026-09-06 10:17:56,113,164,359,Transferencia enviada - Casacas,True,-24.00,Transferencia entre locales
+4,234,202609,2026-09-13 20:01:48,162,164,9,Entrada por compra - Casacas,True,38.00,Reposición semanal
+4,234,202609,2026-09-18 17:54:21,179,164,9,Entrada por compra - Casacas,True,52.00,
+4,234,202609,2026-09-23 16:06:02,218,164,209,Salida por venta - Casacas,True,-29.00,Venta por canal digital
+4,234,202610,2026-10-03 11:55:43,274,164,209,Salida por venta - Casacas,True,-28.00,Venta por canal digital
+4,234,202610,2026-10-09 12:31:01,305,164,9,Entrada por compra - Casacas,True,29.00,
+4,234,202610,2026-10-20 12:17:18,362,164,209,Salida por venta - Casacas,True,-23.00,
+4,234,202611,2026-11-05 14:37:27,455,164,159,Transferencia recibida - Casacas,True,65.00,Transferencia entre locales
+4,234,202611,2026-11-07 10:04:11,465,164,209,Salida por venta - Casacas,True,-14.00,Venta en tienda
+4,234,202611,2026-11-12 15:36:07,494,164,9,Entrada por compra - Casacas,True,77.00,
+4,235,202608,2026-08-19 13:08:40,22,184,210,Salida por venta - Polares,True,-27.00,Venta por canal digital
+4,235,202608,2026-08-20 19:51:30,28,184,160,Transferencia recibida - Polares,True,50.00,Recibido desde otro almacén
+4,235,202608,2026-08-30 15:07:06,72,184,160,Transferencia recibida - Polares,True,50.00,Transferencia entre locales
+4,235,202609,2026-09-03 20:14:31,103,184,10,Entrada por compra - Polares,True,22.00,Compra por campaña
+4,235,202610,2026-10-09 14:40:48,306,184,210,Salida por venta - Polares,True,-8.00,Venta por canal digital
+4,235,202610,2026-10-13 10:16:22,321,184,310,Ajuste negativo - Polares,True,-24.00,Regularización de inventario
+4,235,202610,2026-10-17 09:08:05,351,184,10,Entrada por compra - Polares,True,42.00,Ingreso de nueva temporada
+4,235,202611,2026-11-06 08:04:32,458,184,10,Entrada por compra - Polares,True,42.00,Compra por campaña
+4,235,202611,2026-11-13 11:12:48,498,184,10,Entrada por compra - Polares,True,42.00,
+4,235,202611,2026-11-13 15:01:05,499,184,210,Salida por venta - Polares,True,-22.00,
+4,236,202608,2026-08-17 08:44:09,9,384,220,Salida por venta - Chalecos,True,-24.00,
+4,236,202608,2026-08-22 20:30:01,39,384,20,Entrada por compra - Chalecos,True,60.00,Compra a proveedor
+4,236,202608,2026-08-25 10:21:56,54,384,370,Transferencia enviada - Chalecos,True,-6.00,Enviado a otro almacén
+4,236,202608,2026-08-31 19:45:43,79,384,220,Salida por venta - Chalecos,True,-29.00,Venta en tienda
+4,236,202609,2026-09-27 10:54:59,239,384,120,Ajuste positivo - Chalecos,True,71.00,
+4,236,202609,2026-09-28 11:25:31,248,384,420,Consumo interno - Chalecos,True,-13.00,
+4,236,202610,2026-10-14 11:30:46,332,384,220,Salida por venta - Chalecos,True,-27.00,Venta por canal digital
+4,236,202610,2026-10-19 14:57:04,357,384,120,Ajuste positivo - Chalecos,True,69.00,Sobrante detectado en conteo
+4,236,202611,2026-11-11 12:36:08,485,384,120,Ajuste positivo - Chalecos,True,67.00,
+4,236,202611,2026-11-12 14:34:39,492,384,320,Ajuste negativo - Chalecos,True,-8.00,Regularización de inventario
+4,399,202609,2026-09-08 20:27:49,135,464,374,Transferencia enviada - Zapatos escolares,True,-26.00,Enviado a otro almacén
+4,399,202609,2026-09-10 13:03:45,143,464,124,Ajuste positivo - Zapatos escolares,True,76.00,
+4,399,202609,2026-09-24 08:01:44,221,464,24,Entrada por compra - Zapatos escolares,True,67.00,
+4,399,202610,2026-10-12 20:58:49,320,464,224,Salida por venta - Zapatos escolares,True,-12.00,Venta mayorista
+4,399,202610,2026-10-22 13:28:36,375,464,274,Merma - Zapatos escolares,True,-12.00,
+4,399,202610,2026-10-27 10:37:12,408,464,274,Merma - Zapatos escolares,True,-4.00,Pérdida en almacén
+4,399,202610,2026-10-29 18:01:18,417,464,24,Entrada por compra - Zapatos escolares,True,33.00,Reposición semanal
+4,399,202610,2026-10-31 19:33:53,427,464,424,Consumo interno - Zapatos escolares,True,-10.00,Muestra para vitrina
+4,399,202611,2026-11-01 19:40:55,441,464,224,Salida por venta - Zapatos escolares,True,-23.00,
+4,399,202611,2026-11-03 16:28:27,448,464,424,Consumo interno - Zapatos escolares,True,-19.00,Muestra para vitrina

@@ -1,0 +1,76 @@
+;;; 
+Export: Release 23.26.3.0.0 - Production on Sun Nov 15 04:00:51 2026
+Version 23.26.3.0.0
+
+Copyright (c) 1982, 2026, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle AI Database 26ai Free Release 23.26.3.0.0 - Develop, Learn, and Run for Free
+Starting "SYSTEM"."SYS_EXPORT_SCHEMA_01":  "SYSTEM/********@localhost:1521/FREEPDB1" schemas=MYPE_INVENTARIO directory=MYPE_BACKUP_DIR dumpfile=mype_backup_frag_20261114.dmp logfile=mype_export_frag_20261114.log 
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/TABLESPACE_QUOTA
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA/LOGREP
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/TABLE/IDENTITY_COLUMN
+Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processing object type SCHEMA_EXPORT/FUNCTION/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/PROCEDURE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+. . exported "MYPE_INVENTARIO"."PROVEEDOR"                66.4 KB     500 rows
+. . exported "MYPE_INVENTARIO"."NEGOCIO"                  65.2 KB     500 rows
+. . exported "MYPE_INVENTARIO"."PROMOCIONCOMERCIAL"       61.1 KB     500 rows
+. . exported "MYPE_INVENTARIO"."EMPLEADO"                 53.5 KB     500 rows
+. . exported "MYPE_INVENTARIO"."PRODUCTO"                 48.4 KB     500 rows
+. . exported "MYPE_INVENTARIO"."DIRECCIONCLIENTE"         48.6 KB     500 rows
+. . exported "MYPE_INVENTARIO"."COMERCIANTE"              47.6 KB     500 rows
+. . exported "MYPE_INVENTARIO"."CLIENTE"                  43.2 KB     500 rows
+. . exported "MYPE_INVENTARIO"."SUCURSAL"                   42 KB     500 rows
+. . exported "MYPE_INVENTARIO"."COMPRA"                   38.1 KB     500 rows
+. . exported "MYPE_INVENTARIO"."CANALVENTA"               35.1 KB     500 rows
+. . exported "MYPE_INVENTARIO"."CATEGORIAPRODUCTO"        32.5 KB     500 rows
+. . exported "MYPE_INVENTARIO"."PEDIDO"                   32.4 KB     500 rows
+. . exported "MYPE_INVENTARIO"."VARIANTESKU"                31 KB     500 rows
+. . exported "MYPE_INVENTARIO"."METODOPAGO"               23.2 KB     500 rows
+. . exported "MYPE_INVENTARIO"."VENTACANAL"               23.1 KB     500 rows
+. . exported "MYPE_INVENTARIO"."DETALLEPEDIDO"            22.3 KB     500 rows
+. . exported "MYPE_INVENTARIO"."DETALLEVENTA"             22.2 KB     500 rows
+. . exported "MYPE_INVENTARIO"."DETALLECOMPRA"            20.7 KB     500 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_2026_10"."P_2026_10_S_H4"   12.5 KB      63 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_2026_09"."P_2026_09_S_H4"   12.2 KB      57 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_2026_09"."P_2026_09_S_H3"   11.5 KB      43 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_2026_09"."P_2026_09_S_H2"   11.5 KB      42 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_2026_10"."P_2026_10_S_H3"   11.4 KB      42 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_2026_10"."P_2026_10_S_H2"   11.4 KB      40 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_2026_08"."P_2026_08_S_H4"     11 KB      33 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_2026_10"."P_2026_10_S_H1"   10.7 KB      27 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_2026_09"."P_2026_09_S_H1"   10.6 KB      26 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_2026_08"."P_2026_08_S_H2"   10.6 KB      25 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_2026_08"."P_2026_08_S_H3"   10.6 KB      25 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_2026_11"."P_2026_11_S_H4"   10.4 KB      22 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_2026_11"."P_2026_11_S_H2"   10.2 KB      18 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_2026_11"."P_2026_11_S_H3"   10.1 KB      15 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_2026_11"."P_2026_11_S_H1"    9.9 KB      12 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_2026_08"."P_2026_08_S_H1"    9.8 KB      10 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_ANTES"."P_ANTES_S_H1"      0 KB       0 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_ANTES"."P_ANTES_S_H2"      0 KB       0 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_ANTES"."P_ANTES_S_H3"      0 KB       0 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_ANTES"."P_ANTES_S_H4"      0 KB       0 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_MAX"."P_MAX_S_H1"      0 KB       0 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_MAX"."P_MAX_S_H2"      0 KB       0 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_MAX"."P_MAX_S_H3"      0 KB       0 rows
+. . exported "MYPE_INVENTARIO"."VENTA":"P_MAX"."P_MAX_S_H4"      0 KB       0 rows
+Master table "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for SYSTEM.SYS_EXPORT_SCHEMA_01 is:
+  /opt/oracle/backups/mype_backup_frag_20261114.dmp
+Job "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully completed at Sun Nov 15 04:01:23 2026 elapsed 0 00:00:23
